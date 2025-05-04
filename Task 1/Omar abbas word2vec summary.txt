@@ -1,0 +1,5 @@
+This paper introduces two simple models to help computers understand the meaning of words better by turning them into numbers, or "vectors." These models are designed to learn these word representations quickly and efficiently, even when trained on very large amounts of text — like billions of words. The goal is to make sure words that are similar in meaning end up with similar vector representations.
+
+The authors show that these new models not only work faster but also do a better job than older models. For example, they demonstrate how these word vectors can recognize relationships between words. One popular example is: if you take the vector for “King,” subtract “Man,” and add “Woman,” you get something very close to “Queen.” This shows the model understands both word meaning and relationships.
+
+Overall, the paper is about improving how computers can learn the meaning and relationships of words without needing complicated models. These methods help build better systems for tasks like translation or speech recognition by giving machines a more meaningful way to handle words.
