@@ -1,0 +1,5 @@
+RNNs are a type of neural network designed to handle sequential data, such as time series or text. The key concept behind RNNs is their ability to retain information from previous steps in the sequence by passing a hidden state from one time step to the next. This recurrent connection allows the network to consider past context when making predictions at each step.
+
+At each time step, the RNN takes the current input and the hidden state from the previous time step to compute the output and the updated hidden state. This process effectively creates a memory of previous inputs, making RNNs well-suited for tasks where the order and dependency of inputs matter.
+
+However, RNNs have a significant limitation: they struggle to learn long-range dependencies due to the vanishing and exploding gradient problem during backpropagation .
